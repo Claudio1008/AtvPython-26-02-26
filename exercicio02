@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMZuvqBigkw3u/HVgcTMRg/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Claudio1008/AtvPython-26-02-26/blob/main/exercicio02\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "YBtNiNyDQIDI"
+      },
+      "outputs": [],
+      "source": [
+        "nota1 = float(input(\"DIGITE A PRIMEIRA NOTA DO ALUNO: \"))\n",
+        "nota2 = float(input(\"DIGITE A SEGUNDA NOTA DO ALUNO: \"))\n",
+        "media = (nota1 + nota2) /2\n",
+        "if media > 6:\n",
+        "  print(\"aprovado\")\n",
+        "elif media >= 4 and media <= 6:\n",
+        "    print(\"recuperação\")\n",
+        "else:\n",
+        "      print(\"reprovado\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "salario = float(input(\"DIGITE O SALARIO DO COLABORADOR: \"))\n",
+        "porcentualAumento = int(input(\"DIGITE O PORCENTUAL DE AUMENTO DO COLABORADOR: \"))\n",
+        "aumento = salario/100 * porcentualAumento\n",
+        "salarioFinal = aumento + porcentualAumento\n",
+        "\n",
+        "if aumento <= 350:\n",
+        "  print(f\"PARABENS PELO SEU AUMENTO DE {aumento} REAIS\")\n",
+        "elif aumento > 350 and aumento <= 500:\n",
+        "  print(f\"TEVE UM EXELENTE AUMENTO DE {aumento} REAIS\")\n",
+        "else:\n",
+        "  print(f\"PARABENS VC TEVE UM GRANDE AUMENTO DE {aumento}\")"
+      ],
+      "metadata": {
+        "id": "bkCt0CnCQNTc"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
